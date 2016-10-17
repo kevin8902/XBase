@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--底部tabbar设计规范-->
+    <dimen name="tabbar_height">56dp</dimen>
+    <dimen name="tabbar_icon_width">24dp</dimen>
+    <dimen name="tabbar_text_select_size">14sp</dimen>
+    <dimen name="tabbar_text_unselect_size">12sp</dimen>
+
+
+
+    <!--文字大小-->
+    <dimen name="text_1">2sp</dimen>
+    <dimen name="text_2">4sp</dimen>
+    <dimen name="text_3">6sp</dimen>
+    <dimen name="text_4">8sp</dimen>
+    <dimen name="text_5">10sp</dimen>
+    <dimen name="text_5_5">11sp</dimen>
+    <dimen name="text_6">12sp</dimen>
+    <dimen name="text_6_5">13sp</dimen>
+    <dimen name="text_7">14sp</dimen>
+    <dimen name="text_7_5">15sp</dimen>
+    <dimen name="text_8">16sp</dimen>
+    <dimen name="text_8_5">17sp</dimen>
+    <dimen name="text_9">18sp</dimen>
+    <dimen name="text_9_5">19sp</dimen>
+    <dimen name="text_10">20sp</dimen>
+    <dimen name="text_10_5">21sp</dimen>
+    <dimen name="text_11">22sp</dimen>
+    <dimen name="text_11_5">23sp</dimen>
+    <dimen name="text_12">24sp</dimen>
+    <dimen name="text_12_5">25sp</dimen>
+    <dimen name="text_13">26sp</dimen>
+    <dimen name="text_14">28sp</dimen>
+    <dimen name="text_15">30sp</dimen>
+    <dimen name="text_16">32sp</dimen>
+</resources>

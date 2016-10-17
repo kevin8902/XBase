@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+    <!--中间标题部分-->
+    <TextView
+        android:id="@+id/activity_title_center_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="标题"
+        android:textColor="@color/xWhite"
+        android:textSize="@dimen/text_11" />
+    <!--左边部分-->
+    <FrameLayout
+        android:id="@+id/activity_title_lf"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/activity_title_lf_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="返回"
+            android:textColor="@color/xWhite"
+            android:textSize="@dimen/text_8"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/activity_title_lf_im"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:padding="5dp" />
+    </FrameLayout>
+
+    <!--右边部分-->
+    <FrameLayout
+        android:id="@+id/activity_title_rg"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/activity_title_rg_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="返回"
+            android:textColor="@color/xWhite"
+            android:textSize="@dimen/text_8"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/activity_title_rg_im"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:padding="5dp" />
+
+    </FrameLayout>
+
+</RelativeLayout>
