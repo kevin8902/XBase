@@ -14,7 +14,7 @@
         android:layout_centerInParent="true"
         android:gravity="center"
         android:text="标题"
-        android:textColor="@color/xWhite"
+        android:textColor="@color/xGray"
         android:textSize="@dimen/text_11" />
     <!--左边部分-->
     <FrameLayout
@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="返回"
-            android:textColor="@color/xWhite"
+            android:textColor="@color/xGray"
             android:textSize="@dimen/text_8"
             android:visibility="gone" />
 
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="返回"
-            android:textColor="@color/xWhite"
+            android:textColor="@color/xGray"
             android:textSize="@dimen/text_8"
             android:visibility="gone" />
 

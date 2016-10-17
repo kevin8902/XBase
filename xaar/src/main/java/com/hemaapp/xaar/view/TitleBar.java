@@ -49,6 +49,19 @@ public class TitleBar extends FrameLayout {
         addView(titleView);
     }
 
+    public void setTitleColor(int color) {
+        title.setTextColor(color);
+    }
+
+    public void setRightColor(int color) {
+        right_tv.setTextColor(color);
+    }
+
+
+    public void setLeftColor(int color) {
+        left_tv.setTextColor(color);
+    }
+
 
     public void showLeftIm(int imageResource) {
         left_fr.setVisibility(VISIBLE);
