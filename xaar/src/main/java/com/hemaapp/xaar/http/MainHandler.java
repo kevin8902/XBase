@@ -4,7 +4,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 
-import com.hemaapp.xbasejar.BaseConfig;
+import com.hemaapp.xaar.XConfig;
 
 
 /******************************
@@ -24,15 +24,15 @@ public class MainHandler extends Handler {
     @Override
     public void handleMessage(Message msg) {
         HttpBean bean = (HttpBean) msg.obj;
-        if (msg.what == BaseConfig.HTTP_BEFORE) {
+        if (msg.what == XConfig.HTTP_BEFORE) {
             bean.getListener().httpExecuteBefore(bean.getTask());
-        } else if (msg.what == BaseConfig.HTTP_SUCCESS) {
+        } else if (msg.what == XConfig.HTTP_SUCCESS) {
             bean.getListener().httpExecuteSuccess(bean.getTask(), bean.getBaseResult());
             bean.getListener().httpExecuteAfter(bean.getTask());
-        } else if (msg.what == BaseConfig.HTTP_FAILED) {
+        } else if (msg.what == XConfig.HTTP_FAILED) {
             bean.getListener().httpExecuteFailed(bean.getTask(), bean.getBaseResult());
             bean.getListener().httpExecuteAfter(bean.getTask());
-        } else if (msg.what == BaseConfig.HTTP_ERROR) {
+        } else if (msg.what == XConfig.HTTP_ERROR) {
             bean.getListener().httpExecuteError(bean.getTask());
         }
         super.handleMessage(msg);
